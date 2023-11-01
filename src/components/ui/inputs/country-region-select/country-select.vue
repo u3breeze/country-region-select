@@ -104,7 +104,7 @@ const topCountryName = computed(() => {
 </script>
 
 <template>
-  <select @change="onChange($event.target.value)" :class="className" :autocomplete="autocompleteAttr">
+  <select @change="onChange(($event.target as HTMLSelectElement).value)" :class="className" :autocomplete="autocompleteAttr">
     <option value="" v-if="!disablePlaceholder && !removePlaceholder">{{ placeholder }}</option>
     <option value="" v-if="disablePlaceholder && !removePlaceholder" disabled selected>{{ placeholder }}</option>
     <option v-if="topCountry" :value="firstCountry" :selected="country === firstCountry">{{ topCountryName }}</option>

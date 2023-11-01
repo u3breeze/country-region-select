@@ -111,7 +111,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <select @change="onChange($event.target.value)"
+  <select @change="onChange(($event.target as HTMLSelectElement).value)"
           :class="props.className"
           :autocomplete="autocompleteAttr"
   >

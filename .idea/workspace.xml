@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="817f55fe-692b-46d0-a4a8-587d568de226" name="Changes" comment="country region ts" />
+    <list default="true" id="817f55fe-692b-46d0-a4a8-587d568de226" name="Changes" comment="country region select">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/inputs/country-region-select/country-select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/inputs/country-region-select/country-select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/inputs/country-region-select/region-select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/inputs/country-region-select/region-select.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +104,8 @@
       <workItem from="1698161784240" duration="259000" />
       <workItem from="1698247316956" duration="8454000" />
       <workItem from="1698556898918" duration="3558000" />
-      <workItem from="1698560585896" duration="77000" />
+      <workItem from="1698560585896" duration="427000" />
+      <workItem from="1698815664492" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="VITE_SERVER_API">
       <option name="closed" value="true" />
@@ -262,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698255659549</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="country region select">
+      <option name="closed" value="true" />
+      <created>1698560699970</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1698560699971</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +313,7 @@
     <MESSAGE value="quit icon and ConfirmationDialog" />
     <MESSAGE value="ui" />
     <MESSAGE value="country region ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="country region ts" />
+    <MESSAGE value="country region select" />
+    <option name="LAST_COMMIT_MESSAGE" value="country region select" />
   </component>
 </project>
